@@ -7,7 +7,6 @@ services:
       - '80:80'
     volumes:
       - ./php/html:/var/www/html
-      - ./php/conf/:/usr/local/etc/php/
     links:
       - mysql
 
